@@ -1,5 +1,5 @@
 ## HuEverReset
-InGame-Reset fpr PC Engine with support for TurboEverdrive v1-v2.5
+InGame-Reset for PC Engine with support for TurboEverdrive v1-v2.5
 
 ### v20221107 / ArcadeTV
 
