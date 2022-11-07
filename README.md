@@ -1,9 +1,7 @@
 ## HuEverReset
 InGame-Reset fpr PC Engine with support for TurboEverdrive v1-v2.5
 
-## HuEverReset
-### v20221107
-#### ArcadeTV
+### v20221107 / ArcadeTV
 
 ![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
 
