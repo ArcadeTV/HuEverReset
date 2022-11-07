@@ -18,7 +18,7 @@ InGame-Reset fpr PC Engine with support for TurboEverdrive v1-v2.5
 
 
 #### Description:
-Since a TurboEverdrive v1 to v2.5 is not listening to a hard reset (/RESET), implementing an IngameReset that is triggered upon pressing a button-combo on the controller is not possible. This mod solves that problem by replacing the 7805 regulator with a KA78R05 that has a switchable output. So, instead of pulling the /RESET line of the PC Engine LOW, this mod aims to cut the power of the system for 1 second and turning it back on. This ensures that the menu of the TurboEverdrive is displayed.
+Since a TurboEverdrive v1 to v2.5 is not listening to a hard reset (/RESET), implementing an IngameReset that is triggered upon pressing a button-combo on the controller is not possible. This mod solves that problem by replacing the 7805 regulator with a KA78R05 that has a switchable output. So, instead of pulling the /RESET line of the PC Engine LOW, this mod aims to cut the power of the system for 1 second and turning it back on. This ensures that the menu of the TurboEverdrive is displayed. The pcb consists of 2 different layouts including a little POWER BOARD for making the replacement of the power-regulator a breeze.
 
 #### Microcontroller:
 Please mind that the ATtiny84 microcontroller needs to be programmed
