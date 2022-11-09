@@ -26,7 +26,7 @@ Since a TurboEverdrive v1 to v2.5 is not listening to a hard reset (/RESET), imp
 
 #### Microcontroller:
 Please mind that the ATtiny84 microcontroller needs to be programmed
-with the provided hex file.
+with the provided hex file. If you use the ISP header, please do so while the pcb is unpopulated except for IC1.
 
 #### Jumper J1
 Enable or Disable the use of a piezo speaker (buzzer).
