@@ -85,7 +85,7 @@ I recommend jlcpcb. When ordering from jlcpcb, fill out the order-form as follow
 ```
 Different Design: 2
 Delivery Format: Panel by Customer
-PCB Thickness: 1.0 mm
+PCB Thickness: 0.8 - 1.0 mm
 ```
 
 **GERBER** files can be downloaded from the `releases` tab: 
