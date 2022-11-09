@@ -14,7 +14,6 @@ It is designed for the white japanese PC Engine console but can be easily adapte
 ---
 
 #### Parts
-![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
 
 | Part | Value            | Device           | Package             |
 | :--- | :--------------- | :--------------- | :------------------ |
@@ -76,6 +75,7 @@ If you connect a piezo speaker for acoustic feedback when a reset is triggered, 
 ---
 
 #### PCB
+![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
 Use the provided gerber files to order your pcb from your favorite manufacturer. 
 I recommend jlcpcb. When ordering from jlcpcb, fill out the order-form as follows:
 
