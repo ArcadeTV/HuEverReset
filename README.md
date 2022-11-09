@@ -46,6 +46,10 @@ Delivery Format: Panel by Customer
 PCB Thickness: 1.0 mm
 ```
 
+**GERBER** files can be downloaded from the `releases` tab: 
+
+https://github.com/ArcadeTV/HuEverReset/releases/latest
+
 Eagle source files for editing also exist in this repository.
 
 ---
