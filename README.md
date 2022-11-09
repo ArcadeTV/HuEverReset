@@ -5,6 +5,15 @@ _*Untested!*_ - Please consider waiting until everything is confirmed working.
 
 ### v20221109 / ArcadeTV
 
+---
+
+#### Description:
+This enables an InGame-Reset by pressing a button-combo on the controller that also works with TurboEverdrive to get back to the menu.
+It is designed for the white japanese PC Engine console but can be easily adapted to any PC Engine system if you know which pins of the controller-input-socket to connect to the pcb. Optionally you can use a piezo speaker for acoustic feedback upon triggering a reset.
+
+---
+
+#### Parts
 ![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
 
 | Part | Value            | Device           | Package             |
@@ -18,14 +27,7 @@ _*Untested!*_ - Please consider waiting until everything is confirmed working.
 | R2   | 10K              | R-US_R0805       | R0805               |
 
 
-Optionally you can use a piezo speaker for acoustic feedback like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation.
-
----
-
-#### Description:
-This enables an InGame-Reset by pressing a button-combo on the controller that also works with TurboEverdrive to get back to the menu.
-It is designed for the white japanese PC Engine console but can be easily adapted to any PC Engine system if you know which pins of the controller-input-socket to connect to the pcb.
-
+Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation.
 ---
 
 #### Installation:
@@ -69,6 +71,8 @@ Closed: use
 Open: ignore
 ```
 If you connect a piezo speaker for acoustic feedback when a reset is triggered, close J1. You may want to use a resistor on the positive leg of the speaker (e.g. 220 Ohms) if you find it too loud.
+
+---
 
 #### PCB
 Use the provided gerber files to order your pcb from your favorite manufacturer. 
