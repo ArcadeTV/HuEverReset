@@ -1,6 +1,8 @@
 ## HuEverReset
 InGame-Reset for PC Engine with support for TurboEverdrive v1-v2.5
 
+_*Untested!*_ - Please consider waiting until everything is confirmed working.
+
 ### v20221109 / ArcadeTV
 
 ![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
