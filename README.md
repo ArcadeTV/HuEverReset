@@ -15,7 +15,9 @@ InGame-Reset for PC Engine with support for TurboEverdrive v1-v2.5
 | R1   | 10K              | R-US_R0805       | R0805               |
 | R2   | 10K              | R-US_R0805       | R0805               |
 
+
 Optionally you can use a piezo speaker for acoustic feedback like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1).
+
 ---
 
 
