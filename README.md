@@ -27,7 +27,7 @@ It is designed for the white japanese PC Engine console but can be easily adapte
 | R3   | 220                 | R-US_R0805       | R0805               |
 | HDR  | 3-Pin Header 2.54mm | Pinheader        | Pinheader 2.54mm    |
 
-Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation.
+Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation. You can also wire a switch to the pads of J1 if you want to toggle this feature on and off.
 
 Also optional a 5V LED can be used for visual feedback. It's lit constantly until the button combo is pressed, then it flashes to indicate that a reset will occur if the combo is pressed longer and finally it goes off while the reset is performed.
 
