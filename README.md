@@ -28,6 +28,7 @@ It is designed for the white japanese PC Engine console but can be easily adapte
 
 
 Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation.
+
 ---
 
 #### Installation:
