@@ -22,7 +22,7 @@ It is designed for the white japanese PC Engine console but can be easily adapte
 | D1   | RB168VWM-40TR       | RB168VWM-40TR    | RB168VWM40TR        |
 | IC1  | ATTINY84V-10SSUR    | ATTINY84V-10SSUR | SOIC127P600X175-14N |
 | IC2  | KA78R05CTU_NL       | KA78R05          | TO-220-4            |
-| R1   | 10K                 | R-US_R0805       | R0805               |
+| R1   | 20K                 | R-US_R0805       | R0805               |
 | R2   | 10K                 | R-US_R0805       | R0805               |
 | R3   | 220                 | R-US_R0805       | R0805               |
 | HDR  | 3-Pin Header 2.54mm | Pinheader        | Pinheader 2.54mm    |
