@@ -41,7 +41,7 @@ Since a TurboEverdrive v1 to v2.5 is not listening to a hard reset (/RESET), imp
 #### Microcontroller:
 ```
 ATtiny84 ----------------
-                     _____
+                      _____
              VCC  01-|°    |-14 GND
 /Jmp: Use Speaker 02-|     |-13 /ENABLE (MiniDin 7)
       Speaker (+) 03-|     |-12 D3: Run, Left (MiniDin 5)
