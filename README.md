@@ -1,7 +1,7 @@
 ## HuEverReset
 InGame-Reset for PC Engine with support for TurboEverdrive v1-v2.5
 
-### v20221107 / ArcadeTV
+### v20221109 / ArcadeTV
 
 ![HuEverReset pcb](https://github.com/ArcadeTV/HuEverReset/blob/main/HuEverReset_brd.png?raw=true)
 
@@ -27,6 +27,14 @@ Since a TurboEverdrive v1 to v2.5 is not listening to a hard reset (/RESET), imp
 #### Microcontroller:
 Please mind that the ATtiny84 microcontroller needs to be programmed
 with the provided hex file.
+
+#### Jumper J1
+Enable or Disable the use of a piezo speaker (buzzer).
+```
+Closed: use
+Open: ignore
+```
+If you connect a piezo speaker for acoustic feedback when a reset is triggered, close J1. You may want to use a resistor on the positive leg of the speaker (e.g. 220 Ohms) if you find it too loud.
 
 #### PCB
 Use the provided gerber files to order your pcb from your favorite manufacturer. 
