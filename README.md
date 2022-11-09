@@ -15,18 +15,21 @@ It is designed for the white japanese PC Engine console but can be easily adapte
 
 #### Parts
 
-| Part | Value            | Device           | Package             |
-| :--- | :--------------- | :--------------- | :------------------ |
-| CB1  | 100nF            | C-USC0805        | C0805               |
-| C1   | 220uF            | CPOL-USC/6032-28R| C/6032-28R          |
-| D1   | RB168VWM-40TR    | RB168VWM-40TR    | RB168VWM40TR        |
-| IC1  | ATTINY84V-10SSUR | ATTINY84V-10SSUR | SOIC127P600X175-14N |
-| IC2  | KA78R05CTU_NL    | KA78R05          | TO-220-4            |
-| R1   | 10K              | R-US_R0805       | R0805               |
-| R2   | 10K              | R-US_R0805       | R0805               |
-
+| Part | Value               | Device           | Package             |
+| :--- | :------------------ | :--------------- | :------------------ |
+| CB1  | 100nF               | C-USC0805        | C0805               |
+| C1   | 220uF               | CPOL-USC/6032-28R| C/6032-28R          |
+| D1   | RB168VWM-40TR       | RB168VWM-40TR    | RB168VWM40TR        |
+| IC1  | ATTINY84V-10SSUR    | ATTINY84V-10SSUR | SOIC127P600X175-14N |
+| IC2  | KA78R05CTU_NL       | KA78R05          | TO-220-4            |
+| R1   | 10K                 | R-US_R0805       | R0805               |
+| R2   | 10K                 | R-US_R0805       | R0805               |
+| R3   | 220                 | R-US_R0805       | R0805               |
+| HDR  | 3-Pin Header 2.54mm | Pinheader        | Pinheader 2.54mm    |
 
 Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/868392/Ningbo/KPM-1205A/1). A 220 Ohms resistor is recommended on the positive leg for attenuation.
+
+Also optional a 5V LED can be used for visual feedback. It's lit constantly until the button combo is pressed, then it flashes to indicate that a reset will occur if the combo is pressed longer and finally it goes off while the reset is performed.
 
 ---
 
