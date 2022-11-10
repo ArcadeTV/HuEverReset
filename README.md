@@ -31,6 +31,8 @@ Optionally, a piezo speaker like the [KPM-1205A](https://datasheetspdf.com/pdf/8
 
 Also optional a 5V Common Cathode LED can be used for visual feedback. It's lit constantly until the button combo is pressed, then it flashes to indicate that a reset will occur if the combo is pressed longer and finally it goes off while the reset is performed.
 
+Here's a [BOM file in Excel format](https://github.com/ArcadeTV/HuEverReset/raw/main/BOM_HuEverReset_Mouser.xlsx) that you can use to order parts at Mouser. It does not include the KA78R05 regulator, LED and piezo speaker. Also please note that due to a general chip shortage you may have to source the ATtiny84 somewhere else.
+
 ---
 
 #### Installation:
